@@ -48,7 +48,9 @@ section {
     align-items: center;
 }
 
-.fourth { justify-content: space-around;}
+.fourth {
+    justify-content: space-around;
+}
 
 .box-third {
     width: 78px;
@@ -56,9 +58,10 @@ section {
     margin: 20px;
     border-radius: 4px;
     background-color: red;
-    align-self: flex-end;}
+    align-self: flex-end;
+}
 
-    .box-fourth {
+.box-fourth {
         width: 78px;
         height: 120px;
         margin: 20px;
@@ -66,8 +69,6 @@ section {
         background-color: red;
         text-align: center;
     text-emphasis-color: white;
-
-        
     }
 
     .fifth {    justify-content: center;
@@ -75,14 +76,17 @@ section {
     }
 
 
-    .sixth {justify-content: center;
-        align-items: center; }
+    .sixth {
+        justify-content: center;
+        align-items: center; 
+    }
 
         .box-fifth {        
-            width: 156px;
+            flex-grow: 2;
             height: 78px;
             margin: 20px;
             border-radius: 4px;
-            background-color: red}
+            background-color: red
+        }
 
 
